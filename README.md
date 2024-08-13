@@ -1,7 +1,3 @@
-Voici un modèle pour ton fichier `README.md` qui explique l'installation, la configuration, et le test des itinéraires de ton projet :
-
----
-
 # API RESTful avec Node.js, Express, et Mongoose
 
 ## Description
@@ -11,32 +7,16 @@ Ce projet est une API RESTful simple qui permet de manipuler des utilisateurs da
 
 - [Node.js](https://nodejs.org/) installé
 - [MongoDB](https://www.mongodb.com/) installé ou un compte MongoDB Atlas
-- [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download) pour tester les routes (optionnel)
-- [Git](https://git-scm.com/) pour cloner le projet (optionnel)
+- [Postman](https://www.postman.com/downloads/) pour tester les routes
 
 ## Installation
 
-1. **Cloner le dépôt** (si tu utilises Git) :
-    ```bash
-    git clone https://github.com/ton_nom_dutilisateur/ton_projet.git
-    cd ton_projet
-    ```
-
-2. **Initialiser le projet** :
+1. **Initialiser le projet** :
     ```bash
     npm install
     ```
-
-3. **Configurer les variables d'environnement** :
-    - Crée un fichier `.env` dans le dossier `config/`.
-    - Ajoute les variables d'environnement suivantes :
-      ```env
-      PORT=3000
-      MONGO_URI=mongodb://localhost:27017/nom_de_ta_base_de_donnees
-      ```
-    - Si tu utilises MongoDB Atlas, remplace `MONGO_URI` par ton URI de connexion Atlas.
-
-4. **Lancer le serveur** :
+    
+2. **Lancer le serveur** :
     ```bash
     npm start
     ```
