@@ -14,7 +14,7 @@ dotenv.config({ path: './config/.env' });
 app.use(express.json());
 
 // Connexion à MongoDB et lancement du serveur
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 3000;
 const MONGOURL = process.env.MONGO_URI;
 const connectDB = async () => {
     try {
